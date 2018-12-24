@@ -464,7 +464,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'admin' || $command == 'staff' ) {
+	    if ($command == 'admin' || $command == 'Admin' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
