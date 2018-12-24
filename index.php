@@ -117,7 +117,7 @@ if ($type == 'text' || $command == 'Key') {
     $text .= "> Hai\n";
     $text .= "> Halo\n";
     $text .= "> Ok\n";
-    $text .= "> Udah";
+    $text .= "> Udah\n";
     $text .= "> haha [sticker]\n";
     $text .= "> masa [sticker]";
     $balas = array(
