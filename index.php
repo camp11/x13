@@ -43,7 +43,7 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "> Welcome\n";
     $text .= "> Official\n";
     $text .= "> Fams\n";
-    $text .= "> Staff\n";
+    $text .= "> admin\n";
     $text .= "> Key\n";
     $text .= "> Creator\n";
     $text .= "> /myinfo\n";
