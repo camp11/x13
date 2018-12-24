@@ -682,14 +682,14 @@ if($message['type']=='text') {
     }
 }//pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Wikwik' || $command == 'wikwik' ) {
+	    if ($command == 'masa' || $command == 'Masa' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'Mimin mengirim sticker',
+  'altText' => 'EMON mengirim sticker',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -701,7 +701,7 @@ if($message['type']=='text') {
         'action' => 
         array (
           'type' => 'message',
-          'text' => 'Wikwik',
+          'text' => 'masa',
         ),
       ),
     ),
